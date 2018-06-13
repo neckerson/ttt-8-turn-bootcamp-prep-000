@@ -25,6 +25,7 @@ end
 
 # Move somewhere
 def move(board, board_index, character = "X")
+  puts character
   board[board_index] = character
 end
 
