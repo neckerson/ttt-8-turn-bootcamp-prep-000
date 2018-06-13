@@ -44,4 +44,5 @@ def display_board(board, board_array = [])
 end
 
 def turn(board)
+  puts "Please enter 1-9:"
 end
