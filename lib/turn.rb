@@ -17,6 +17,7 @@ def position_taken?(board, index)
   end
 end
 
+# Convert input to index
 def input_to_index(user_input)
   user_input.to_i - 1
 end
