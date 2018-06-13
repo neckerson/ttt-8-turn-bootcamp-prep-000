@@ -43,5 +43,5 @@ def display_board(board, board_array = [])
   end
 end
 
-def turn()
+def turn(board)
 end
