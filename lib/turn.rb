@@ -51,7 +51,7 @@ def turn(board)
     move(board, input)
     turn(board)
   else
-    puts "invalid move!"
+    puts "invalid"
     turn(board)
   end
 end
