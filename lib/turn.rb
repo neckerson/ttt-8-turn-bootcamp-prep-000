@@ -24,8 +24,8 @@ def input_to_index(user_input)
 end
 
 # Move somewhere
-def move(board_array, board_index, character = "X")
-  board_array[board_index] = character
+def move(board, board_index, character = "X")
+  board[board_index] = character
 end
 
 # Generate the board
