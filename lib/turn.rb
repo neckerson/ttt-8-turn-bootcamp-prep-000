@@ -44,12 +44,11 @@ def display_board(board, board_array = [])
 end
 
 def turn(board)
-  loop do 
-    puts "Please enter 1-9:"
+  puts "Please enter 1-9:"
   input = gets.strip
   if valid_move? board, input_to_index(input)
     move(board, input)
+  else
+    turn(board)
   end
-  end
-
 end
